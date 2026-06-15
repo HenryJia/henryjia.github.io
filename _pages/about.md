@@ -2,18 +2,15 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: Machine Learning, Computational Chemistry, Additive & Subtractive Manufacturing, Flutemaking
 
 profile:
   align: right
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
-  more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+  #more_info: 
 
-selected_papers: true # includes a list of papers marked as "selected={true}"
+selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 
 announcements:
@@ -27,8 +24,26 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](https://www.reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+Hey there. I'm Henry, currently finishing up my doctoral research at the University of Warwick. My current research is in predicting blood brain barrier permeability to drug-like molecules.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+My main focus is on combining machine learning with molecular dynamics simulations to create efficient methods of predicting BBB permeability for novel molecules. Molecular dynamics simulations are transparent and high fidelity, but they're computationally expensive. Machine learning gets blackboxy sometimes, but it's accurate and fast. My work is on integrating them so you can get the best of both worlds.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+Although my research is focused on predicting BBB permeability, I expect these methods are highly applicable in other areas of absorbtion, distribution, metabolism and excretion (ADME) prediction. But, I am just one guy, so maybe I'll get to work with one of you wonderful readers on that in the future.
+
+I also have a strong pet interest in porting the ideas I come across in computational chemistry back into machine learning. I think a lot of the enhanced sampling methods used in molecular dynamics might be able to radically alter the standard SGD based methods everyone's been using for the last decade and a half.
+
+Aside from my current work, I've had a long and storied journey in machine learning, and since you're here, I presume you want to read about it.
+
+**1999 - 2010** I was born in China in 1999. I lived there till I was about 8, when I moved to the UK. When I was about 10, around 2009 and 2010, I started to read books on C programming. To be frank with you, I don't remember why. For whatever reason, 10 year old me decided that C/C++ was the thing to do instead of going outside. For some reason, C/C++ stayed with me, and I continued to learn it for the next half a decade. C/C++ was my weapon of choice
+
+**2014 - 2015** I started getting into GUIs. I think like every kid who touched code, I wanted to make video games. So I started getting into messing around with wxWidgets and Qt. I never made any games, funnily enough. I did briefly contribute to the open source 0AD game, which is based on Age of Empires. But I mostly built other things with Qt. I ended up making a full Microsoft Excel clone of all things. Not exactly the most exciting project, but for some reason I ended up a bit obsessed with it
+
+**January 2015 - March 2015** I started hearing about this weird thing called "machine learning". I had no idea what it was, but I saw the Andrew Ng course on Coursera and decided to give it a go. For reasons I honestly don't understand, it stuck with me. I ended up also doing the legendary MIT 18.06 Linear Algebra course, along with Professor Jim Fowlers Calculus courses to supplement the maths side.
+
+**March 2015 - September 2015** I started working on machine learning projects of my own. At the time, Keras was just released, and definitely wasn't well known. Tensorflow wouldn't be released until late 2015. Theano existed, but wasn't exactly popular. Everyone was building their own frameworks. So, I decided to build my own as well. I bought myself a NVidia GTX 960 4GB GPU, taught myself how to write and optimise CUDA C, and built my own deep learning framework in it from scratch. I called it "CUBLAS-ML" as it was mainly using NVidia's CUBLAS library to do all the linear algebra. Funnily enough, I think I did it in CUDA C because I was afraid of having to learn Python. A tad ironic in hindsight given how easy Python is to learn, but hey ho, I think I ended up with somewhat unique experience into high performance computation on GPUs which still serve me well to this day
+
+**September 2015 - June 2022** I met David Holz. At the time, he was the CTO of Leap Motion. He decided to hire me as a machine learning engineer. I worked with him at Leap Motion, later rebranded to Ultraleap for the next 6 years. Honestly, we did a lot in this time. I integrated my CUDA C deep learning framework into the Leap Motion team's framework, as theirs was in C++ and not CUDA accelerated. Eventually by late 2015 we all finally switched to Python as TensorFlow came out. We built a lot of cool stuff. We built, then rebuilt our in house machine learning infrastructure. We played around with early GANs for synthetic data generation to make our existing simulators more realistic. We tried deformable convolutions. We even tried early neural SLAM using LSTMs with CNNs. We also worked on machine learning with forward kinematics models.
+
+**June 2022 - December 2022** I think it was about a year before this, David left Ultraleap to start MidJourney. I ended up leaving about a year later to join him. We did some interesting things in that time. MidJourney was in its early stages, so I worked on the early diffusion models with U-Net based architectures and CLIP embeddings. We didn't have much infrastructure at the time, but I was unable to stick around to build it, as I wanted to start a PhD.
+
+**December 2022 - September 2026** I started my PhD at the University of Warwick. My motivation was mixed one. I'd spent a lot of time doing just machine learning, and I felt like I was rabbitholing myself somewhat. ML was and remains what I'm good at, but I think I wanted more. I was also somewhat burned out by the 7 long years of working in industry. I know a PhD isn't exactly the usual prescribed treatment for burnout. But, I wasn't exactly the kind of person who can just sit around doing nothing. I needed something interesting to work on, and I've long had the idea of shifting into computational medicine. So I wound up doing a PhD on predicting BBB permeability. The rest is history, and the start of my bio tells you all about that.
