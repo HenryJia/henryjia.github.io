@@ -26,7 +26,7 @@ latest_posts:
 
 Hey there. I'm Henry, currently finishing up my doctoral research at the University of Warwick. My current research is in predicting blood brain barrier permeability to drug-like molecules.
 
-My main focus is on combining machine learning with molecular dynamics simulations to create efficient methods of predicting BBB permeability for novel molecules. Molecular dynamics simulations are transparent and high fidelity, but they're computationally expensive. Machine learning gets blackboxy sometimes, but it's accurate and fast. My work is on integrating them so you can get the best of both worlds.
+My main focus is on combining machine learning with molecular dynamics simulations to create efficient methods of predicting BBB permeability for novel molecules. Molecular dynamics simulations are transparent and validated with physics, but they're computationally expensive. Machine learning gets blackboxy sometimes, but it's accurate and fast. My work is on integrating them so you can get the best of both worlds.
 
 Although my research is focused on predicting BBB permeability, I expect these methods are highly applicable in other areas of absorbtion, distribution, metabolism and excretion (ADME) prediction. But, I am just one guy, so maybe I'll get to work with one of you wonderful readers on that in the future.
 
