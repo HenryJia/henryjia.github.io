@@ -139,17 +139,22 @@ cv:
         # summary: The publication of the theory of general relativity made him internationally famous. He was professor of physics at the universities of Zurich (1909–1911) and Prague (1911–1912), before he returned to ETH Zurich (1912–1914).
 
     Skills:
-      name: Machine Learning
+      - name: Machine Learning
         # level: Master
         # icon: fa-solid fa-hashtag
-        # keywords: "Quantum Mechanics, Quantum Computing, Quantum Information, Quantum Cryptography, Quantum Communication, Quantum Teleportation"
-      name: Molecular Dynamics (GROMACS, Plumed2, CharMM-GUI, CGenFF)
-      name: CUDA C
-      name: C/C++
-      name: Python
-      name: Precision additive and subtractive manufacturing
-      name: Embedded Systems Engineering
-      name: Teaching and Mentoring
+        keywords: "PyTorch, Tensorflow, Pytorch Lightning"
+      - name: Molecular Dynamics
+        keywords: "GROMACS, Plumed2, CharMM-GUI, CGenFF"
+      - name: High Performance GPU Computing
+        keywords: "CUDA C/C++"
+      - name: Software Engineering
+        keywords: "Python, C/C++, Bash, Git, CI/CD"
+      - name: Precision additive and subtractive manufacturing
+        keywords: "3D printing, Manual and CNC machining, Computer aided design (CAD)"
+      - name: Embedded Systems Engineering
+        keywords: "ESP IDF, Arduino"
+      - name: Teaching and Mentoring
+        keywords: "Set Theory, Mathematical Analysis, Linear Algebra, Machine Learning"
 
     Languages:
       - name: English
@@ -158,13 +163,13 @@ cv:
       - name: Chinese (Mandarin)
         summary: "Fluent"
 
-    Interests:
-      name: Machine Learning
-        # icon: fa-solid fa-tag
-        # keywords: "Quantum Mechanics, Quantum Computing, Quantum Information, Quantum Cryptography, Quantum Communication, Quantum Teleportation"
-      name: Computational Medicine
-      name: Precision Manufacturing
-      name: Flute Making
+    # Interests:
+    #   - name: Machine Learning
+    #     # icon: fa-solid fa-tag
+    #     # keywords: "Quantum Mechanics, Quantum Computing, Quantum Information, Quantum Cryptography, Quantum Communication, Quantum Teleportation"
+    #   - name: Computational Medicine
+    #   - name: Precision Manufacturing
+    #   - name: Flute Making
 
     # Certificates:
     #   - name: Machine Learning
