@@ -24,7 +24,7 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Hey there, I'm Henry. My current research is in predicting blood brain barrier (BBB) permeability to drug-like molecules. I previously worked in the ML industry for about 7 years, including at MidJourney and Leap Motion/UltraLeap.
+Hey there, I'm Henry. My current research is in predicting blood brain barrier (BBB) permeability to drug-like molecules at the University of Warwick. I previously worked in the ML industry for about 7 years, including at MidJourney and Leap Motion/UltraLeap.
 
 My main focus is on combining machine learning with molecular dynamics simulations to create efficient methods of predicting BBB permeability for novel molecules. Molecular dynamics simulations are transparent and validated with physics, but they're computationally expensive. Machine learning gets blackboxy sometimes, but it's accurate and fast. My work is on integrating them so you can get the best of both worlds.
 
