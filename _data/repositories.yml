@@ -4,10 +4,8 @@ github_users:
 repo_description_lines_max: 2
 
 github_repos:
-  - alshedivat/al-folio
-  - jekyll/jekyll
-  - twbs/bootstrap
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - mathjax/MathJax
-  - jpswalsh/academicons
+  - HenryJia/budget-flow-matching
+  - HenryJia/SOAP_B3DB_BO
+  - HenryJia/lightning-baselines3
+  - HenryJia/InfoGAN
+  - HenryJia/CUBLAS-ML
