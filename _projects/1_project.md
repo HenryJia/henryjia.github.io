@@ -1,10 +1,10 @@
 ---
 layout: page
-title: project 1
+title: A Mathematically Designed and Precision Machined Flute
 description: with background image
 img: assets/img/12.jpg
 importance: 1
-category: work
+#category: work
 related_publications: true
 ---
 
