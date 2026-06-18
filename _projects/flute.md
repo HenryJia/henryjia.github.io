@@ -40,7 +40,7 @@ So, with OnShape as my CAD software of choice, as they were basically the only C
     On the left, the first high whistle I fabricated, in the key of D with just intonation. On the right, a video of me playing "The Foggy Dew" on it. My playing is not that good as I'm mainly a violinist, but I think the sound quality is pretty good.
 </div>
 
-This design was OK in all honesty. It sounded well and was in tune, though it was somewhat overcomplicated. It also wasn't tunable, which wasn't ideal. This was tolerable though since I'd tuned it reasonably accurately in the manufacturing process, and high whistles seemed less sensitive to factors like temperature (forshadowing what would happen later with the low whistle design). I think the biggest issue with it however was that I didn't have good precision metrology tools at the time. I had a set of Mitutoyo calipers, but as any good machinist will know, you need micrometers. Calipers are only good for ballpark measurements.
+This design was OK in all honesty. It sounded well and was in tune, though it was somewhat overcomplicated. It also wasn't tunable, which wasn't ideal. This was tolerable though since I'd tuned it reasonably accurately in the manufacturing process, and high whistles seemed less sensitive to factors like temperature (foreshadowing what would happen later with the low whistle design). I think the biggest issue with it however was that I didn't have good precision metrology tools at the time. I had a set of Mitutoyo calipers, but as any good machinist will know, you need micrometers. Calipers are only good for ballpark measurements.
 
 This meant that the assembly process relied heavily on me abusing a key property of aluminium, which is that it's soft and had a substantial thermal expansion coefficient (23um/m/K). I could machine things to a lower tolerance, and force parts together with a blowtorch and hammer. This worked, but it was definitely not pretty. It left a lot of marks and scars on the flute. I suppose it added character though. That being said, it was quite funny when musicians asked me how I made it. I told them "Precision's not real. You just need a bigger hammer."
 
@@ -51,10 +51,10 @@ Eventually though, I did finally get round to obtaining some precision snap gaug
 After iterating on the design of the high whistle a bit and simplifying it, I produced more for friends who were professional musicians. I was then confident enough to scale it up to a low whistle. The first attempt (Mk0) kind of failed disastrously, and ended up in the scrap box of shame. This then lead to the second attempt with the Mk1, which was quite successful, and remains my main low whistle to this day.
 
 <div class="row">
-    <div class="col-sm-5 mt-3 mt-md-0">
+    <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/flute/low_whistle0.jpg" title="Low Whistle Mk1" class="img-fluid rounded z-depth-1" %}
     </div>
-    <div class="col-sm-7 mt-3 mt-md-0">
+    <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/flute/low_whistle1.jpg" title="Low Whistle Mk0 & Mk1" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
@@ -73,10 +73,10 @@ I thought about all of these methods, and I decided to go with neither of them. 
 This led to the Mk2 design, which was my best design yet. It still needed a lot of air, but it was tunable. The tuning however still is a tiny bit on the flatter side, as I underestimated how far the tuning slide needed to move in winter to compensate for the colder termperatures. But it was still a major improvement, and my best flute to date. I gave it to a good friend who is a much more professional musician than I am. By all accounts, they seem to be impressed by it. My whistles so far have been rated as comparable to professionally made flutes.
 
 <div class="row">
-    <div class="col-sm mt-3 mt-md-0">
+    <div class="col-sm-4 mt-3 mt-md-0">
         {% include video.liquid path="assets/video/flute/low_whistle0.mp4" title="Low Whistle Mk0" class="img-fluid rounded z-depth-1" controls=true %}
     </div>
-    <div class="col-sm mt-3 mt-md-0">
+    <div class="col-sm-8 mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/flute/low_whistle2.jpg" title="Low Whistle Mk2" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
@@ -100,6 +100,6 @@ You can export the designs to a format of your choosing and use them to manufact
 
 However, please note that these designs should be used as a reference. Unlike 3D printing, machining depends very heavily on the specific tooling you have access to, and the methods you use with them. Tolerances are **not** modelled into the CAD designs. I figured them out as I went along machining.
 
-Also note that these designs are based around common tube sizes I had access to. If the materials you have access to are different, you may need to adjust the designs accordingly. Use the calculator I referenced to work out exact hole positions you need/
+Also note that these designs are based around common tube sizes I had access to. If the materials you have access to are different, you may need to adjust the designs accordingly. Use the calculator I referenced to work out exact hole positions you need.
 
 And of course, obligatory disclaimer: I am not responsible for anything you do with these designs. If you hurt yourself, or someone else, or break something, that's on you. You are meant to exercise your own skills and expertise when using these designs. I am not responsible for your actions.
