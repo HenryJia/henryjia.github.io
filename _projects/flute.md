@@ -47,6 +47,20 @@ This design was OK in all honesty. It worked well and was in tune, though it was
 
 This meant that the assembly process relied heavily on me abusing a key property of aluminium, which is that it's soft and had a substantial thermal expansion coefficient (23um/m/K). I could machine things to a lower tolerance, and force parts together with a blowtorch and hammer. This worked, but it was definitely not pretty. It left a lot of marks and scars on the flute. I suppose it added character though. That being said, it was quite funny when musicians asked me how I made it. I told them "Precision's not real. You just need a bigger hammer."
 
-# Mk0 High Whistle
+# Mk0 and Mk1 High Whistle
 
-Eventually though, I did finally get round to obtaining some precision snap gauges, along with a set of old Mitutoyo micrometers for cheap on eBay. The snap gauges were a little bit broken, and I actually had to machine a part or 2 to get them working. But, they were enough. I also procured
+Eventually though, I did finally get round to obtaining some precision snap gauges, along with a set of old Mitutoyo micrometers for cheap on eBay. The snap gauges were a little bit broken, and I actually had to machine a part or 2 to get them working. But, they were enough. I also procured some nicer carbide tooling for better machining quality.
+
+After iterating on the design of the high whistle a bit by simplifying it, I was confident enough to scale it up to a low whistle. The first attempt kind of failed disastrously, and ended up in the scrap box of shame.
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/flute/low_whistle0.jpg" title="Low Whistle Mk1" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/flute/low_whistle1.jpg" title="Low Whistle Mk1" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    The Mk0 and Mk1 low whistles next to each other, both in the key of D with just intonation. The Mk0 low whistle is shown here in multiple pieces, as it kind of failed and I used it for parts to make the Mk1.
+</div>
