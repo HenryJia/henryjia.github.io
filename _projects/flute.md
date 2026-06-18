@@ -102,4 +102,4 @@ However, please note that these designs should be used as a reference. Unlike 3D
 
 Also note that these designs are based around common tube sizes I had access to. If the materials you have access to are different, you may need to adjust the designs accordingly. Use the calculator I referenced to work out exact hole positions you need/
 
-And of course, obligatory disclaimer: I am not responsible for anything you do with these designs. If you hurt yourself, or someone else, or break something. You are meant to exercise your own skills and expertise when using these designs. I am not responsible for your actions.
+And of course, obligatory disclaimer: I am not responsible for anything you do with these designs. If you hurt yourself, or someone else, or break something, that's on you. You are meant to exercise your own skills and expertise when using these designs. I am not responsible for your actions.
