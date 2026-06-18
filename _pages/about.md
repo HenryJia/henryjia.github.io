@@ -28,7 +28,7 @@ Hey there, I'm Henry. My current research is in predicting blood brain barrier (
 
 My main focus is on combining machine learning with molecular dynamics simulations to create efficient methods of predicting BBB permeability for novel molecules. Molecular dynamics simulations are transparent and validated with physics, but they're computationally expensive. Machine learning gets blackboxy sometimes, but it's accurate and fast. My work is on integrating them so you can get the best of both worlds.
 
-Although my research is focused on predicting BBB permeability, I expect these methods are highly applicable in other areas of absorbtion, distribution, metabolism and excretion (ADMET) prediction. But, I am just one guy, so maybe I'll get to work with one of you wonderful readers on that in the future.
+Although my research is focused on predicting BBB permeability, I expect these methods are highly applicable in other areas of absorption, distribution, metabolism, excretion and toxicity (ADMET) prediction. But, I am just one guy, so maybe I'll get to work with one of you wonderful readers on that in the future.
 
 I also have a strong pet interest in porting the ideas I come across in computational chemistry back into machine learning. I think a lot of the enhanced sampling methods used in molecular dynamics might be able to radically alter the standard SGD based methods everyone's been using for the last decade and a half.
 
