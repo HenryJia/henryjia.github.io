@@ -51,10 +51,10 @@ Eventually though, I did finally get round to obtaining some precision snap gaug
 After iterating on the design of the high whistle a bit and simplifying it, I produced more for friends who were professional musicians. I was then confident enough to scale it up to a low whistle. The first attempt (Mk0) kind of failed disastrously, and ended up in the scrap box of shame. This then lead to the second attempt with the Mk1, which was quite successful, and remains my main low whistle to this day.
 
 <div class="row">
-    <div class="col-sm mt-3 mt-md-0">
+    <div class="col-sm-5 mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/flute/low_whistle0.jpg" title="Low Whistle Mk1" class="img-fluid rounded z-depth-1" %}
     </div>
-    <div class="col-sm mt-3 mt-md-0">
+    <div class="col-sm-7 mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/flute/low_whistle1.jpg" title="Low Whistle Mk0 & Mk1" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
