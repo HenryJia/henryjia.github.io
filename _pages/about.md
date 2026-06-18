@@ -1,6 +1,6 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
 subtitle: Machine Learning, Computational Chemistry, Additive & Subtractive Manufacturing, Flutemaking
 

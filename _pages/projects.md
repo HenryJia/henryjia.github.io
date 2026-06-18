@@ -2,7 +2,7 @@
 layout: page
 title: Projects
 permalink: /projects/
-description: A nonexhaustive bag of stuff I worked on
+description: A nonexhaustive list of stuff I worked on
 nav: true
 nav_order: 3
 #display_categories: [work, fun]
