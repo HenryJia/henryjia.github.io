@@ -34,7 +34,7 @@ So, with OnShape as my CAD software of choice, as they were basically the only C
     </div>
     <div class="col-sm mt-3 mt-md-0">
         <video width="100%" height="auto" controls class="rounded z-depth-1">
-            <source src="assets/img/flute/high_whistle0.mp4" type="video/mp4">
+            <source src="/assets/img/flute/high_whistle0.mp4" type="video/mp4">
             Your browser does not support the video tag.
         </video>
     </div>
