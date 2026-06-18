@@ -12,7 +12,7 @@ related_publications: true
 Around late 2024, I finally got access to the Warco lathe and mill at the Birmingham Makerspace. I'd been asking for a little while. The original reason I wanted access was to make one of the tools for making a violin. Specifically, I wanted one of those bending irons for making the ribs of a violin. But, they were quite expensive, and like any cheapskate engineer, I wanted to try making one myself for a fraction of the cost.
 
 <div class="row">
-    <div class="col-sm mt-3 mt-md-0">
+    <div class="col-sm mt-3 mt-md-0" width="50%" height="auto">
         {% include figure.liquid loading="eager" path="assets/img/flute/bending_iron.jpg" title="Violin Bending Iron" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
@@ -45,4 +45,8 @@ So, with OnShape as my CAD software of choice, as they were basically the only C
 
 This design was OK in all honesty. It worked well and was in tune, though it was somewhat overcomplicated. It also wasn't tunable, which wasn't ideal. This was tolerable though since I'd tuned it reasonably accurately in the manufacturing process, and high whistles seemed less sensitive to factors like temperature (forshadowing what would happen later with the low whistle design). I think the biggest issue with it however was that I didn't have good precision metrology tools at the time. I had a set of Mitutoyo calipers, but as any good machinist will know, you need micrometers. Calipers are only good for ballpark measurements.
 
-This meant that the assembly process relied heavily on me abusing a key property of aluminium, which is that it's soft and had a substantial thermal expansion coefficient (23um/m/K). I could machine things to a lower tolerance, and force parts together with a blowtorch and hammer. This worked, but it was definitely not pretty. It left a lot of marks and scars on the flute. I suppose it added character though.
+This meant that the assembly process relied heavily on me abusing a key property of aluminium, which is that it's soft and had a substantial thermal expansion coefficient (23um/m/K). I could machine things to a lower tolerance, and force parts together with a blowtorch and hammer. This worked, but it was definitely not pretty. It left a lot of marks and scars on the flute. I suppose it added character though. That being said, it was quite funny when musicians asked me how I made it. I told them "Precision's not real. You just need a bigger hammer."
+
+# Mk0 High Whistle
+
+Eventually though, I did finally get round to obtaining some precision snap gauges, along with a set of old Mitutoyo micrometers for cheap on eBay. The snap gauges were a little bit broken, and I actually had to machine a part or 2 to get them working. But, they were enough. I also procured
