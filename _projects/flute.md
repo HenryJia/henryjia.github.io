@@ -24,6 +24,8 @@ I'd 3D printed violins before in the past, both based on the [Hovalin Design](ht
 
 Parallel to this, I got roped into learning the Irish high whistle/penny flute by various friends in the University of Warwick's folk group. I kind of realised both that the Irish high whistle was both exceptionally easy to learn, and should be relatively straightforward to manufacture on a lathe and mill. After a little bit of searching on how to calculate the tunings, I discovered that an old retired flutemaker had published a [calculator](https://music.bracker.uk/pub/html/Workshop/Whistle-Calculator.html) for working out the hole positions, for given key and set of hole sizes.
 
+# The Mk0 High Whistle
+
 So, with OnShape as my CAD software of choice, as they were basically the only CAD package that had a free hobbyist tier and ran on Linux, I drew together the initial designs for a high whistle. I decided to go with the high whistle initially as I felt this might be easier than the larger low whistle. This wasn't true in hindsight. They're similarish in difficulty to manufacture.
 
 <div class="row">
@@ -37,7 +39,7 @@ So, with OnShape as my CAD software of choice, as they were basically the only C
 
 This design was OK in all honesty. It worked well and was in tune, though it was somewhat overcomplicated. It also wasn't tunable, which wasn't ideal. This was tolerable though since I'd tuned it reasonably accurately in the manufacturing process, and high whistles seemed less sensitive to factors like temperature (forshadowing what would happen later with the low whistle design). I think the biggest issue with it however was that I didn't have good precision metrology tools at the time. I had a set of Mitutoyo calipers, but as any good machinist will know, you need micrometers. Calipers are only good for ballpark measurements.
 
-This meant that the assembly process relied heavily on me abusing a key property of aluminium, which is that it's soft and had a substantial thermal expansion coefficient. I could machine things to a lower tolerance, and force parts together with a blowtorch and hammer. This worked, but it was definitely not pretty. It left a lot of marks and scars on the flute. I suppose it added character though.
+This meant that the assembly process relied heavily on me abusing a key property of aluminium, which is that it's soft and had a substantial thermal expansion coefficient (23um/m/K). I could machine things to a lower tolerance, and force parts together with a blowtorch and hammer. This worked, but it was definitely not pretty. It left a lot of marks and scars on the flute. I suppose it added character though.
 
 
 <div class="row">
