@@ -33,10 +33,7 @@ So, with OnShape as my CAD software of choice, as they were basically the only C
         {% include figure.liquid loading="eager" path="assets/img/flute/high_whistle0.jpg" title="High Whistle Mk0" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        <video width="100%" height="auto" controls class="rounded z-depth-1">
-            <source src="/assets/video/flute/high_whistle0.mp4" type="video/mp4">
-            Your browser does not support the video tag.
-        </video>
+        {% include video.liquid loading="eager" path="assets/video/flute/high_whistle0.mp4" title="High Whistle Mk0" class="img-fluid rounded z-depth-1" controls=true %}
     </div>
 </div>
 <div class="caption">
@@ -58,9 +55,9 @@ After iterating on the design of the high whistle a bit by simplifying it, I was
         {% include figure.liquid loading="eager" path="assets/img/flute/low_whistle0.jpg" title="Low Whistle Mk1" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/flute/low_whistle1.jpg" title="Low Whistle Mk1" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/flute/low_whistle1.jpg" title="Low Whistle Mk0 & Mk1" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    The Mk0 and Mk1 low whistles next to each other, both in the key of D with just intonation. The Mk0 low whistle is shown here in multiple pieces, as it kind of failed and I used it for parts to make the Mk1.
+    On the left, the Mk1 low whistle. On the right, the failed Mk0 low whistle in multiple pieces after being cut up for scrap, next to the Mk1 low whistle.
 </div>
