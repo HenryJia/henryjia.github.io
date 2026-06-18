@@ -5,7 +5,7 @@ description: Some people trusted me with a lathe, so I made a flute.
 img: assets/img/flute/flute0.jpg
 importance: 1
 #category: work
-related_publications: true
+related_publications: false
 ---
 # Background
 
