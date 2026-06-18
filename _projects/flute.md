@@ -11,8 +11,8 @@ related_publications: true
 
 Around late 2024, I finally got access to the Warco lathe and mill at the Birmingham Makerspace. I'd been asking for a little while. The original reason I wanted access was to make one of the tools for making a violin. Specifically, I wanted one of those bending irons for making the ribs of a violin. But, they were quite expensive, and like any cheapskate engineer, I wanted to try making one myself for a fraction of the cost.
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0" width="50%" height="auto">
+<div class="row justify-content-center">
+    <div class="col-sm-6 mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/flute/bending_iron.jpg" title="Violin Bending Iron" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
