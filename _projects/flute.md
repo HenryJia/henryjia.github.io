@@ -33,7 +33,7 @@ So, with OnShape as my CAD software of choice, as they were basically the only C
         {% include figure.liquid loading="eager" path="assets/img/flute/high_whistle0.jpg" title="High Whistle Mk0" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include video.liquid loading="eager" path="assets/video/flute/high_whistle0.mp4" title="High Whistle Mk0" class="img-fluid rounded z-depth-1" controls=true %}
+        {% include video.liquid path="assets/video/flute/high_whistle0.mp4" title="High Whistle Mk0" class="img-fluid rounded z-depth-1" controls=true %}
     </div>
 </div>
 <div class="caption">
