@@ -1,12 +1,16 @@
 ---
 layout: page
 title: A Mathematically Designed and Precision Machined Flute
-description: with background image
+description: Some people trusted me with a lathe, so I made a flute.
 img: assets/img/flute/flute0.jpg
 importance: 1
 #category: work
 related_publications: true
 ---
+# Background
+
+Around 2025, I finally got access to the Warco lathe and mill at the Birmingham Makerspace. I'd been asking for a little while. The original reason I wanted access was to make one of the tools for making a violin. Specifically, I wanted one of those bending irons for making the ribs of a violin. But, they were quite expensive, and like any cheapskate engineer, I wanted to try making one myself for a fraction of the cost.
+
 
 
 <div class="row">
@@ -20,9 +24,12 @@ related_publications: true
         {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
+
 <div class="caption">
     Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
 </div>
+
+
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
