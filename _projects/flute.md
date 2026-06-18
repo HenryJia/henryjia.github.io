@@ -70,7 +70,7 @@ This then lead to the Mk2 design, which was actually tunable. I'd noticed there 
 
 I thought about all of these methods, and I decided to go with neither of them. I realised that I now had a precision lathe, and micrometers. I could just machine the tuning slide to a 20 micron tolerance. Using my machining skills, I could make it so the tuning slide just about slides with some friction. With a little bit of PTFE lubricant, this would work perfectly. I then wouldn't need to worry about figuring out anything more complicated.
 
-This led to the Mk2 design, which was my best design yet. It still needed a lot of air, but it was tunable. The tuning however still is a tiny bit on the flatter side, as I underestimated how far the tuning slide needed to move in winter to compensate for the colder termperatures. But it was still a major improvement, and my best flute to date. I gave it to a good friend who is a much more professional musician than I am. By all accounts, they seem to be impressed by it. My whistles so far have been rated as comparable to professionally made flutes.
+This led to the Mk2 design, which was my best design yet. It still needed a lot of air, but it was tunable. The tuning however still is a tiny bit on the flatter side, as I underestimated how far the tuning slide needed to move in winter to compensate for the colder temperatures. But it was still a major improvement, and my best flute to date. I gave it to a good friend who is a much more professional musician than I am. By all accounts, they seem to be impressed by it. My whistles so far have been rated as comparable to professionally made flutes.
 
 <div class="row justify-content-center">
     <div class="col-sm-4 mt-3 mt-md-0">
