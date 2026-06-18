@@ -72,7 +72,7 @@ I thought about all of these methods, and I decided to go with neither of them. 
 
 This led to the Mk2 design, which was my best design yet. It still needed a lot of air, but it was tunable. The tuning however still is a tiny bit on the flatter side, as I underestimated how far the tuning slide needed to move in winter to compensate for the colder termperatures. But it was still a major improvement, and my best flute to date. I gave it to a good friend who is a much more professional musician than I am. By all accounts, they seem to be impressed by it. My whistles so far have been rated as comparable to professionally made flutes.
 
-<div class="row">
+<div class="row justify-content-center">
     <div class="col-sm-4 mt-3 mt-md-0">
         {% include video.liquid path="assets/video/flute/low_whistle0.mp4" title="Low Whistle Mk0" class="img-fluid rounded z-depth-1" controls=true %}
     </div>
