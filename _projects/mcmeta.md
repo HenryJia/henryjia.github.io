@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Beyond SGD: An Exploration of Metadynamics Inspired Methods for Deep Learning, A Work in Progress
+title: Beyond SGD - An Exploration of Metadynamics Inspired Methods for Deep Learning, A Work in Progress
 description: Exploring how we can potentially apply metadynamics inspired methods to accelerate deep learning training 
 img: assets/img/mcmeta/metad.jpg
 importance: 1
