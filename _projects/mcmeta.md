@@ -53,5 +53,25 @@ Something interesting to note though, however, is that these hypotheses share an
 
 Both the intrinsic dimension hypothesis and the escape dimension hypothesis are intuitively very sound. However, they are more descriptive than prescriptive. They tell us what is happening, but they don't really tell us what to do about it. The escape dimension hypothesis tells us that the extra parameters are useful for escaping local minima. But, in practice, those extra parameters take up valuable RAM and TFLOPs. It would be nice if we could take the simple logical conclusion of the escape dimension hypothesis, and just add more parameters. But, that's clearly not a practical solution in this day and age of LLMs, not to mention high hardware costs. So, we need to go further and try and find a way to escape local minimal without paying the optimisation cost of those minima, or by adding more parameters.
 
-#### In other words, we want to find a unicorn
+There's also a valuable old saying in engineering "Any idiot can build a bridge, but only an engineer can build one that just about stands." The point of ML research and engineering isn't to scale things endlessly. Any idiot who can write Python can figure that out if they had unlimited compute. The point of ML is to find the most efficient way of doing things. However, we are running up against old questions in ML optimisation which are yet to be solved. What we're looking for really, is a unicorn.
 
+# What on earth is metadynamics?
+
+Generally, it's regarded as bad engineering practice to reinvent the wheel. So naturally, I checked to see if anyone else had the idea of using metadynamics to aid deep learning optimisation. To my surprised, there were quite literally zero papers on this, at least that I could find. There's papers on people applying deep learning to help with metadynamics in molecular dynamics, but nothing on the other way around.
+
+This is quite surprising, given how many papers get tossed at ArXiv every day, probably never to be read. Someone in this infinite monkeys with typewriters should've run into this idea. It's especially surprsing given metadynamics isn't even new. The original paper was in 2002, almost quarter of a century ago. well tempered metadynamics was published in 2008. These are not groundbreaking ideas, at least in computational chemistry. So it's very unusual that no one has publicly thought of this before, at least not on ArXiv. Maybe there are random people out there who have put it on their webpages like mine here, but I couldn't find them.
+
+Metadynamics at its core is actually a very simple idea, which is what drew me to it. Imagine we are in an energy landscape. Naturally, physical systems tend towards the lowest local energy state. This is essentially the same as gradient descent. However, in molecular dynamics, we want to explore beyond the local minima, and ideally the whole energy landscape. So, we add a little bit of extra energy to the system at the current state at regular intervals. We can do this by adding a small Gaussian function centred at the current state. This is like filling up the local minima with a little bit of sand, so that the system can escape it and explore other areas of the energy landscape. Over time, we can build up a picture of the energy landscape by looking at where we've added these Gaussian functions.
+
+<div class="row justify-content-center">
+    <div class="col-sm-8 mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/mcmeta/metad.jpg" title="Metadynamics Illustration" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    An illustration of metadynamics with a 1D energy landscape, provided by [CompChems](https://www.compchems.com/an-introduction-to-enhanced-sampling-and-metadynamics). Here the black line is our true energy landscape, and the red shows our Gaussian functions being added, which allows us to escape local minima and explore the whole energy landscape.
+</div>
+
+Metadynamics is a very powerful method in molecular dynamics, speaking from experience of using it for the last few years. But applying it to deep learning means we have to make a lot of adjustments, and treat it more as loose inspiration. Deep learning is a different beast and runs into a number of issues we don't have in molecular dynamics.
+
+The first and biggest issue is that dimensionality. In molecular dynamics, we typically have a handful of dimensions, maybe up to 8 if we're feeling brave. In deep learning, our parameter space is anywhere between millions to billions of dimensions, a lot of which may not do anything useful.
