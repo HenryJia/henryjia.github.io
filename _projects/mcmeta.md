@@ -16,7 +16,7 @@ In some ways, this is wonderful. It means we have out of the box baselines which
 
 However, Adam is old, really old. The original ArXiv link dates back to 2014. That's 12 years ago at the time of writing. To put things in perspective, when Adam was first released, Theano was the only deep learning framework in Python. TensorFlow didn't exist. Even Keras wasn't released yet. Plenty of people were still writing frameworks in C++ even. Since then the deep learning field has been a battle royale of frameworks, models, and methodologies. We rarely see anything survive for even a few years without getting completely dominated by something else. Yet, Adam somehow has survived all of this.
 
-# Second order methods Haven't Caught On
+# Second order methods haven't caught On
 
 There's been a lot of efforts to try and replace Adam over the years. A lot of them have been second order methods, which makes sense. Second order methods are well used in many other areas of computational science and machine learning. Methods like L-BFGS or Levenberg-Marquardt are very popular in many other areas of optimisation. So it make sense to try it in deep learning as well.
 
@@ -32,14 +32,14 @@ The second is that they're not really second order methods, at least not in any 
 
 There's also a bit of an elephant in the room in that SOAP is relatively complex implementation-wise. This is something which often goes underappreciated. Adam is very simple to implement, and it's very easy to understand what's going on under the hood as the equations can be written out in just a few lines. This is likely why it has such staying power. It's simple, and there's relatively few moving parts to go wrong. SOAP is relatively complex. Intuitively, complexity and robustness are inversely correlated.
 
-# Neural Network Optimsation is a Strange Beast
+# Neural network optimsation is a strange beast
 
 Over the years, newer hypotheses have popped up on neural network optimisation with SGD. A couple of notable ones are the [Lottery Ticket Hypothesis](https://arxiv.org/abs/1803.03635) and the later [Escape Dimension Hypothesis](https://arxiv.org/abs/1803.03635). The escape dimension hypothesis is particularly interesting, as it seems to almost be a sort of corollary to the hypothesis on [intrinsic dimensions](https://arxiv.org/abs/1804.08838).
 
 In short, the intrinssic dimension hypothesis tells us that neural networks have a low intrinsic dimension, provided we are applying the correct inductive biases. You can train a neural network in a small subspace of the full parameter space with limited loss of performance. The escape dimension hypothesis states in effect that the extra dimensions allow us to transform local minima into saddle points, thus allowing us to escape them without having to pay the cost of going over the barrier. In other words, the extra dimensions are kind of like wormholes in the loss landscape. They "shorten" the distance between points in the intrinsic dimension subspace. This also makes sense in the context of the intrinsic dimension hypothesis paper. In that paper, they admit that optimising only in the intrinsic dimension subspace only works well if the problem is relatively simple. They never got it to work on ImageNet. It's quite possible that when the problem gets sufficiently complex, you need the extra dimensions to wormhole your way around the intrinsic dimension subspace.
 
 <div class="row justify-content-center">
-    <div class="col-sm-6 mt-3 mt-md-0">
+    <div class="col-sm-8 mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/mcmeta/wormhole_interstellar.gif" title="Interstellar Wormhole Explanation gif" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
@@ -49,7 +49,7 @@ In short, the intrinssic dimension hypothesis tells us that neural networks have
 
 Something interesting to note though, however, is that these hypotheses share an interesting trait. They start shifting away from the very mathematical theory heavy analysis of optimisation. They shift towards an empirical and intuitive understanding of optimisation. It kind of shows that neural network optimisation might be a very different and strange beast compared to more traditional optimisation problems in mathematics. Here, we don't have good guarrantees of what the optimisation landscape is like. We only have vague intuitions and empirical observations. In some ways, this shifts us away from a mathematical understanding of optimisation, and more towards a more natural science like approach. We have to observe, hypothesise, and test to build our intuitions.
 
-# So, You Want to Find a Unicorn?
+# So, you want to find a unicorn?
 
 Both the intrinsic dimension hypothesis and the escape dimension hypothesis are intuitively very sound. However, they are more descriptive than prescriptive. They tell us what is happening, but they don't really tell us what to do about it. The escape dimension hypothesis tells us that the extra parameters are useful for escaping local minima. But, in practice, those extra parameters take up valuable RAM and TFLOPs. It would be nice if we could take the simple logical conclusion of the escape dimension hypothesis, and just add more parameters. But, that's clearly not a practical solution in this day and age of LLMs, not to mention high hardware costs. So, we need to go further and try and find a way to escape local minimal without paying the optimisation cost of those minima, or by adding more parameters.
 
