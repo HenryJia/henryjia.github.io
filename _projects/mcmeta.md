@@ -88,6 +88,24 @@ The second big issue, the one which I've yet to figure out how to solve fully, i
 
 Finding the right hyperparameters for metadynamics is comparatively straightforward in molecular dynamics. Because we're in a physical system with actual units for time, energy, and distance, we can use our understanding of the system to make educated guesses about the hyperparameters. In deep learning, we don't have this luxury. We don't have a physical system with units that we can use to guide our choice of hyperparameters. There are no physical real world units for us to measure distance in the hidden layer latent space by. The loss function isn't a physical energy with real world units either. As such, we are limited to trial and error in practice. This is somewhat painful, but I don't see a good way around it yet.
 
+The third issue is that metadynamics, when applied naively, requires O(t) memory, where t is the number of timesteps. This is because we need to store all the Gaussian functions we've added to the system. In molecular dynamics, this isn't a big deal, as we typically only run simulations for a few nanoseconds, which is a relatively small number of timesteps. In deep learning, we can easily run for millions of timesteps, which means we can't store all the Gaussian functions.
+
+To work around this, we use a ring buffer to store the Gaussians. This naturally means that our memory requirements are now fixed at the beginning of training regardless of how long we train for.
+
+# Implementation Strategy
+
+So, to test things out, we need a sufficiently hard problem. As shown in the intrinsic dimensions hypothesis paper linked earlier, simple problems like MNIST can be optimised in a very low dimensional subspace. We need something more complex than that.
+
+Since we're in the era of generative models, and computer vision was my old background, we'll test things out using flow matching.
+
+We'll take the NVidia SANA architecture as our base architecture as this is easily adapted via HuggingFace's diffusers library. We'll cut the model size down somewhat to fit within a tight computational budget so I can run it on consumer grade NVidia GPUs. We'll train it on the PD12M + MS COCO dataset, as this gives us around 12-13M images to train on. PD12M has good synthetic captions for text conditioning, but they're a bit "artificial" in many ways. The COCO dataset also has human captions, which should make the model respond better to humanistic captions. To convert the text to embeddings, we'll use Gemma3-270M. It's not powerful, but it is very computationally cheap, and good enough for our purposes.
+
+For the flow matching methodology, we'll use the standard rectified/optimal transport flow matching method. It's simple and highly effective. We'll also use the [REPA](https://arxiv.org/abs/2410.06940) method to help accelerate training, as it's pretty easy to implement
+
+To apply the metadynamics, we'll perform minor component analysis by tracking the exponential moving average of the mean and covariance of the activations of a hidden layer. Specifically, we'll use the 8th hidden layer as it's sort of in the middle, and will have a decent representation whilst not directly breaking the model too much hopefully. We can obtain the minor components simply by mean centering the activations, then computing an eigendecomposition of the covariance matrix, taking the smallest 8 smallest eigenvalues and their corresponding eigenvectors, and projecting the activations onto those eigenvectors. Then we can apply metadynamics in this minor component subspace.
+
+Note that we also store the mean and eigenvectors used in the projection along with the Gaussian functions in the ring buffer. This is because the minor component subspace might change a lot over time. There's no guarantee that this change will also be continuous because of the eigendecomposition step. So we store the mean and eigenvectors, and always compute distances in the original minor component subspace the Gaussian was logged in.
+
 # Does it actually work?
 
 Short answer, not yet. Things are still being trained and this is a work in progress. You'll have to check back at another time to see results.
