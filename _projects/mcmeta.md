@@ -4,6 +4,7 @@ title: Beyond SGD - An Exploration of Metadynamics Inspired Methods for Deep Lea
 description: Exploring how we can potentially apply metadynamics inspired methods to accelerate deep learning training 
 img: assets/img/mcmeta/metad.jpg
 importance: 1
+date: 2026-06-20
 #category: work
 related_publications: false
 ---
@@ -92,7 +93,7 @@ The third issue is that metadynamics, when applied naively, requires O(t) memory
 
 To work around this, we use a ring buffer to store the Gaussians. This naturally means that our memory requirements are now fixed at the beginning of training regardless of how long we train for.
 
-# Implementation Strategy
+# Implementation strategy
 
 So, to test things out, we need a sufficiently hard problem. As shown in the intrinsic dimensions hypothesis paper linked earlier, simple problems like MNIST can be optimised in a very low dimensional subspace. We need something more complex than that.
 

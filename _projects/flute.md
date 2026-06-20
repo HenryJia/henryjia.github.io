@@ -4,6 +4,7 @@ title: A Mathematically Designed and Precision Machined Irish Flute
 description: Some people trusted me with a lathe, so I made a flute.
 img: assets/img/flute/flute0.jpg
 importance: 2
+date: 2025-12-13
 #category: work
 related_publications: false
 ---
