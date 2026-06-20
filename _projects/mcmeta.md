@@ -74,7 +74,7 @@ Metadynamics at its core is actually a very simple idea, which is what drew me t
 
 Metadynamics is a very powerful method in molecular dynamics, speaking from experience of using it for the last few years. But applying it to deep learning means we have to make a lot of adjustments, and treat it more as loose inspiration. Deep learning is a different beast and runs into a number of issues we don't have in molecular dynamics.
 
-# Nothing's Easy in Deep Learning
+# Nothing's easy in deep learning
 
 The first and biggest issue with applying metadynamics is dimensionality. In molecular dynamics, we typically have a handful of dimensions, maybe up to 8 if we're feeling brave. In deep learning, our parameter space is anywhere between millions to billions of dimensions, a lot of which may not do anything useful. We clearly can't apply metadynamics naively to the whole parameter space.
 
