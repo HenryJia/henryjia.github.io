@@ -70,7 +70,7 @@ Metadynamics at its core is actually a very simple idea, which is what drew me t
     </div>
 </div>
 <div class="caption">
-    An illustration of metadynamics with a 1D energy landscape, provided by [CompChems](https://www.compchems.com/an-introduction-to-enhanced-sampling-and-metadynamics). Here the black line is our true energy landscape, and the red shows our Gaussian functions being added, which allows us to escape local minima and explore the whole energy landscape.
+    An illustration of metadynamics with a 1D energy landscape, provided by https://www.compchems.com/an-introduction-to-enhanced-sampling-and-metadynamics. Here the black line is our true energy landscape, and the red shows our Gaussian functions being added, which allows us to escape local minima and explore the whole energy landscape.
 </div>
 
 Metadynamics is a very powerful method in molecular dynamics, speaking from experience of using it for the last few years. But applying it to deep learning means we have to make a lot of adjustments, and treat it more as loose inspiration. Deep learning is a different beast and runs into a number of issues we don't have in molecular dynamics.
